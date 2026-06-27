@@ -1,0 +1,19 @@
+# Dependencies
+backend/node_modules
+login-page/node_modules
+
+# Environment files
+backend/.env
+
+# Build files
+login-page/dist
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite
+login-page/.vite
