@@ -8,7 +8,7 @@ const NavBar = ({isLoggedIn, setIsLoggedIn}) => {
   const handleLogout = async()=>{
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/logout",
+         `${import.meta.env.VITE_API_URL}/auth/logout`,
         {},{
           withCredentials: true,
         }
